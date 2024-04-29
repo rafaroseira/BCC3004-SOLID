@@ -22,6 +22,20 @@ public class TrianguloEquilatero implements Poligono{
         return lado*3;
     }
 
+    /*Versão Incorreta:
+    public void printArea(){
+        System.out.println("A área do triângulo equilátero é: " + getArea() + " unidades de área");
+
+        viola o princípio de responsabilidade única
+    }*/
+
+    /*Versão Incorreta:
+    public void printPerimetro(){
+        System.out.println("O perímetro do triângulo equilátero é: " + getPerimetro() + " unidades de comprimento");
+
+        viola o princípio de responsabilidade única
+    }*/
+
     /*
      * Aqui há o princípio aberto/fechado
      * Um polígono é implementado por uma classe separada. Neste caso, a classe é TrianguloEquilatero.

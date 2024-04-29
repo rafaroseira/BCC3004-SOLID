@@ -22,4 +22,18 @@ public class Circunferencia implements CircunferenciaProvider{
         return (float) (2*Math.PI*raio);
     }
 
+    /*Versão Incorreta:
+    public void printArea(){
+        System.out.println("A área da circunferência é: " + getArea() + " unidades de área");
+
+        viola o princípio de responsabilidade única
+    }*/
+
+    /*Versão Incorreta:
+    public void printCircunferencia(){
+        System.out.println("O comprimento da circunferência é: " + getCircunferencia() + " unidades de comprimento");
+
+        viola o princípio de responsabilidade única
+    }*/
+
 }
